@@ -84,3 +84,6 @@ BUILD_KERNEL := true
 include device/qcom/sepolicy/sepolicy.mk
 
 BOARD_SEPOLICY_DIRS += device/sony/common/sepolicy
+
+# TWRP
+include device/sony/common/twrp.mk
